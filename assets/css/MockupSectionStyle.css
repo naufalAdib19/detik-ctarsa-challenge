@@ -1,0 +1,48 @@
+.mockup-section > div > div h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+@media only screen and (min-width: 567px) {
+    .mockup-section > div > div {
+        width: 50%;
+    }
+    .mockup-section > div > div:nth-child(1) {
+        width: 45%;
+    }
+    
+    .mockup-section > div > div:nth-child(2) {
+        width: 55%;
+    }
+    
+    .mockup-section > div {
+        flex-direction: row;
+    }
+  }
+
+  @media only screen and (max-width: 567px) {
+    .mockup-section > div > div h1 {
+        font-size: 34px;
+    }
+    .mockup-section > div > div {
+        width: 100%;
+    }
+    .mockup-section > div {
+        flex-direction: column-reverse;
+    }
+  }
+
+  @media screen and (max-width: 950px) and (max-height: 600px){
+    .mockup-section > div {
+        flex-direction: column-reverse;
+    }
+    .mockup-section > div > div:first-child {
+        width: 100%;
+        margin-top: 32px;
+    }
+    .mockup-section > div > div:last-child {
+        width: 100%;
+        
+    }
+
+  }

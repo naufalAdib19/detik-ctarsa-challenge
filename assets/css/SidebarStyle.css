@@ -1,0 +1,17 @@
+.side-bar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.side-bar {
+    right: 0;
+    background-color: #232340;
+    transform: translateX(100%);
+    transition-duration: 300ms;
+}
+
+.side-bar ul li a{
+    text-decoration: none;
+    color: white;
+}

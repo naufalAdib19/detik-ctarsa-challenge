@@ -1,0 +1,50 @@
+.hero-section > div {
+    max-width: 563px;
+}
+
+.hero-section > div h1 {
+    font-size: 50px;
+    font-weight: 700;
+}
+
+.hero-section > div p {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.hero-section > div > div > div p {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-section > div > div > div:nth-child(1) {
+    width: 100%;
+    max-width: 298px;
+}
+
+.hero-section > div > div > div:nth-child(2) {
+    background-color: rgba(84, 104, 231, 1);
+    width: 100%;
+    max-width: 200px;
+}
+
+@media only screen and (max-width: 768px) {
+    .hero-section > div > div > div:nth-child(2) {
+        max-width: 298px;
+    }
+  }
+
+  @media only screen and (max-width: 390px) {
+    .hero-section > div h1 {
+        font-size: xx-large;
+    }
+  }
+
+  @media screen and (max-width: 950px) and (max-height: 600px){
+    .hero-section > div h1 {
+        font-size: xx-large;
+    }
+    .hero-section > div p {
+        font-size: small;
+    }
+  }

@@ -1,0 +1,33 @@
+.carousel-section * {
+    margin: 0;
+    padding: 0;
+}
+
+.scroll-onclick > p {
+    cursor: pointer;
+}
+
+.carousel-section > div {
+    padding: 0px 0px;
+    -ms-overflow-style: none;  /* Internet Explorer 10+ */
+    scrollbar-width: none;  /* Firefox */
+}
+.carousel-section>div::-webkit-scrollbar { 
+    display: none;  /* Safari and Chrome */
+}
+
+.carousel-section > div > div {
+    min-width: 360px;
+}
+
+@media only screen and (min-width: 1028px) {
+    .carousel-section > div {
+        margin-left: 200px;
+    }
+  }
+
+  @media only screen and (max-width: 1028px) {
+    .carousel-section > div {
+        margin-left: 12px;
+    }
+  }

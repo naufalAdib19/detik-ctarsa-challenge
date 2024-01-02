@@ -1,0 +1,35 @@
+.footer {
+    background-color: #232340;
+    padding: 64px 12px;
+}
+
+.footer h1 {
+    font-size: x-large;
+}
+
+.footer p {
+    font-size: 12px;
+}
+
+.footer ul {
+    padding: 0;
+    margin: 0;
+}
+
+.footer ul li {
+    list-style: none;
+    font-size: small;
+}
+
+.footer > div:nth-child(5) p{
+    margin: 0;
+    padding: 0;
+}
+
+@media only screen and (min-width: 576px) {
+    .footer > div {
+        margin-left: 24px;
+    }
+  }
+
+
